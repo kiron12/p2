@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: azure;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container a{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.logo a{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sceacharea{
+    position: fixed;
+    right: 50px;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    z-index: 1;
+    background-color: gray;
+    border: 1px solid gray;
+
+}
+.seacehbox input{
+    border: none;
+    outline: none;
+    width: 70px;
+    height: 40px;
+    background: gray;
+    color: black;
+    
+}
+.seacehbox i{
+    background-color: gray;
+    color: white;
+}
+.seacehbox{
+    background: gray;
+}
+.seacehbox input::placeholder{
+    color: azure;
+    font-family: poppins;
+
+}
+
+.section1{
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+    position: absolute;
+}
+.section1 img{
+    width: 400px;
+    border-radius: 10%;
+}
+.sectionbutton{
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-75%,-50%);
+}
+.sectionbutton h1, h2{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+span{
+    color: rgb(205, 133, 214);
+}
+
+.sectionbutton h2{
+    letter-spacing: 12px;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 10% 10% 10% 10% /  50% 50% 50% 50%;
+    background: gray;
+    border: transparent !important;
+    text-align: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: black;
+    background: rgb(205, 133, 214);
+    transition: all ease 0.5s;
+}
+.iconarea{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 154, 154);
+    z-index: 1;
+    transform: translateY(-50%);
+   
+}
+.iconarea a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+
+}
+
+.iconarea a:hover .fa-facebook{
+    color: rgb(126, 206, 206);
+    transform: scale(1.5);
+    transition: all ease 0.8s;
+
+}
+
+.iconarea a:hover .fa-instagram{
+    color: rgb(126, 206, 173);
+    transform: scale(1.5);
+    transition: all ease 0.8s;
+    
+}
+
+.iconarea a:hover .fa-twitter{
+    color: rgb(185, 206, 126);
+    transform: scale(1.5);
+    transition: all ease 0.8s;
+    
+}
+
+.iconarea a:hover .fa-whatsapp{
+    color: rgb(206, 149, 126);
+    transform: scale(1.5);
+    transition: all ease 0.8s;
+    
+}
+
+.iconarea a:hover .fa-youtube{
+    color: rgb(235, 129, 129);
+    transform: scale(1.5);
+    transition: all ease 0.8s;
+    
+}
+
+.pdsection{
+    width: 85%;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+.pdsection > h3{
+    font-size: 40px;
+    text-align: center;
+    font-size: 700;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.pd{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px 0px;
+}
+.pdbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.pdbox img{
+    width: 180px;
+}
+.pdbox p{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.pdbox a{
+    font-family: 'Square Peg', cursive;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.bybtn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    left: 60%;
+    bottom: -20px;
+    transform: translateX(-60%);
+    border-radius:  15% 15% 15% 15% / 50% 50% 50% 50%;
+    background-color: rgb(171, 238, 216);
+    color: black;
+    display: none;
+}
+.pdbox:hover .bybtn{
+    display: flex;
+}
+.pdbox:hover{
+    box-shadow: 2px 2px 20px rgb(170, 143, 143);
+    background-color: rgb(65, 63, 63);
+}
+.about{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 50px auto;
+    margin-bottom: 150px !important;
+}
+.aboutbox{
+    width: 40%;
+}
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.aboutbox h1{
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.aboutbox h4{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.notic{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notic h1{
+    color: bisque;
+}
+.noticinput{
+    width: 300px;
+    height: 60px;
+    padding: 5px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 2px 2px 20px;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    text-align: center;
+    line-height: 60px;
+}
+
+.noticinput input{
+    outline: none;
+    border: none;
+}
+.noticbutton{
+    text-decoration: none;
+}
+
+
+
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
